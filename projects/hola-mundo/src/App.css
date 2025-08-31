@@ -1,0 +1,37 @@
+/*aqui podemos tener todos los estilos a nivel de   "ELEMENTO"  */
+.tw-followCard {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: .8rem;
+}
+
+.tw-followCard-header {
+    display: flex;
+    align-items: center;
+    gap: 4px
+}
+
+.tw-followCard-info {
+    display: flex;
+    flex-direction: column;
+}
+
+/*.tw-followCard-infoUserName{
+    apacity: .6;
+}*/
+
+.tw-followCard-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 1000px;
+}
+
+.tw-followCard-button{
+    margin-left: 16px;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+}
+
