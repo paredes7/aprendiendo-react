@@ -7,3 +7,10 @@ display: grid;
 place-content: center;
 min-height: 100vh;
 }
+
+/*separacion a nivel de "CONTENEDOR"*/
+.App{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

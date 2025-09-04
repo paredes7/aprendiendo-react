@@ -4,6 +4,7 @@
     align-items: center;
     color: #fff;
     font-size: .8rem;
+    justify-content: space-between;
 }
 
 .tw-followCard-header {
@@ -28,10 +29,36 @@
 }
 
 .tw-followCard-button{
+    cursor: pointer;
     margin-left: 16px;
     border: 0;
     border-radius: 999px;
     padding: 6px 16px;
     font-weight: bold;
+    border: 1px solid #000;
+    transition: .3s ease background-color;
 }
 
+.tw-followCard-button:hover{
+    background-color: #09f;
+    
+}
+
+
+
+.tw-followCard-button.is-following{
+    border: 1px solid #bbb;
+    background: transparent;
+    color: #fff;
+    width: 100px;
+}
+
+.tw-followCard-button.is-following:hover{
+    background:  rgb(68, 50, 32);
+    color: red;
+    border: 1px solid red;
+}
+
+.tw-followCar-stopFollow{
+    display: none;
+}
